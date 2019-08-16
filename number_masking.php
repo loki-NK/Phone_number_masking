@@ -15,7 +15,6 @@ try {
     $t=$response->getStatusCode();
     if ($t=200)
       {
-        echo "Here";
         try {
             $response = $client->calls->create(
                 '3213213213',
